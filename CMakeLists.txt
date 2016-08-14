@@ -23,7 +23,6 @@ if(WIN32)
     ${LIBUVDIR}/src/win/getaddrinfo.c
     ${LIBUVDIR}/src/win/getnameinfo.c
     ${LIBUVDIR}/src/win/handle.c
-    ${LIBUVDIR}/src/win/loop-watcher.c
     ${LIBUVDIR}/src/win/pipe.c
     ${LIBUVDIR}/src/win/poll.c
     ${LIBUVDIR}/src/win/process-stdio.c
@@ -78,7 +77,6 @@ else()
     ${LIBUVDIR}/src/unix/fs.c
     ${LIBUVDIR}/src/unix/getaddrinfo.c
     ${LIBUVDIR}/src/unix/getnameinfo.c
-    ${LIBUVDIR}/src/unix/loop-watcher.c
     ${LIBUVDIR}/src/unix/loop.c
     ${LIBUVDIR}/src/unix/pipe.c
     ${LIBUVDIR}/src/unix/poll.c
